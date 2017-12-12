@@ -1,0 +1,25 @@
+page-login {
+    ion-content{
+        background-image: url("../assets/imgs/blogin.jpg");
+        @media screen and(min-height:600px ){
+            background-size: cover;
+            background-position-x: -210px;
+        }
+        @media screen and(max-height:600px ){
+            background-size: cover;
+            background-position-x: -210px;
+        }
+        @media screen and(min-width:1200px ){
+            background-repeat: no-repeat;
+            background-position-x: -210px;
+            background-size: cover;
+        }
+    }
+    button{
+        background-color: #4267B2;
+        padding:80px;
+        margin-left: 28% !important;
+        margin-top: 130% !important;
+        align-self: center;
+    }
+}

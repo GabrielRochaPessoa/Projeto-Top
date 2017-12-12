@@ -1,0 +1,8 @@
+{
+  "name": "AppTop",
+  "app_id": "826120cc",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
